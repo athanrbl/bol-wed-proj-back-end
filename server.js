@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
   res.send("Home")
 })
 
-app.get('/mapCreds', cors(), (req, res, next) => {
+app.get('/mapCreds', cors(), (req, res) => {
   res.send(jsonData)
 })
 
